@@ -38,7 +38,7 @@ S veškerými stopami od satelitů si PixInsight hravě poradí, snímky které 
 ## OK snímek
 
 ![](./02-02-kontrola/02-02-kontrola_img06_image-14.png)
-Jak moc budete na Vaše snímky přísní záleží taky na tom, kolik jich máte. V našem případě, kdy máme cca 2,5h dat, chceme opravdu vyhodit jen pár těch nejhorších, a drobné nedostatky guidingu, nepřesnosti montáže apod. raději odpustit a snímky nechat. PixInsight při stackování snímky taky zkoumá a když mu tam necháme nějaký opravdu špatný, pravděpodobně ho sám vynechá. 
+Jak moc budete na vaše snímky přísní záleží taky na tom, kolik jich máte. V našem případě, kdy máme cca 2,5h dat, chceme opravdu vyhodit jen pár těch nejhorších, a drobné nedostatky guidingu, nepřesnosti montáže apod. raději odpustit a snímky nechat. PixInsight při stackování snímky taky zkoumá a když mu tam necháme nějaký opravdu špatný, pravděpodobně ho sám vynechá. 
 
 > 
 > ***ÚKOL:*** *Ať už používáte má nebo vlastní data, nyní je čas na to si snímky projít, promazat a utřídit do složek dle druhu (light, dark, flat…). V příštím článku se už pustíme do stackování.* 
