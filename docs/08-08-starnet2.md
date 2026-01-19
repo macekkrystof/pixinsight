@@ -5,8 +5,6 @@ lastmod: "2024-07-02T14:48:58+00:00"
 source: "https://clear-skies.azurewebsites.net/2024/07/01/pixinsight-pro-uplne-zacatecniky-8-starnet2-rangeselection/"
 ---
 
-*Cílem této série návodů je provést začátečníka zpracováním DSO fotografií v programu PixInsight. Neočekává se od vás žádná znalost prostředí programu, ale zároveň by čtenář měl mít už nějaké povědomí o kalibračních snímcích, principu „stackování apod. Mým cílem je ukázat, že hezký (nikoliv dokonalý) snímek lze zpracovat v pár krocích s maximálním využitím toho, co PixInsight a různé jeho doplňky nabízí. Ukázková data (M42 – light frames, kalibrační snímky a nastackovaný snímek), která budou tuto sérii provázet jsou k dispozici ke stažení [zde](https://mega.nz/file/TYJXFIrJ#G6RTYuLBZxfHNJGWx-znRU1B8f1oh1rEwyQ8NnqSr4k). V průběhu návodů používám skripty a moduly třetích stran, návod na stažení všech je k dispozici v prvním dílu [zde](https://clearskies.cz/2024/04/29/1-instalace-pixinsight-priprava-prostredi/). Návody jsou tvořeny pro verzi PixInsight 1.8.9-3*
-
 Než se pustíme do samotných úprav, oddělíme obrázek objektu (mlhoviny a hvězd), tak abychom mohli pracovat pouze s jasem samotného objektu a nepokazili si při tom hvězdy. Úplně na začátek ale obrázek přejmenujeme. Stačí kliknout pravým tlačítkem do okna obrázku vlevo na záložku kde je současný název. 
 
 ![](./08-08-starnet2/08-08-starnet2_img01_image-3.png)

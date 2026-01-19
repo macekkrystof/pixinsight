@@ -1,6 +1,6 @@
 # PixInsight
 
-## Chapters
+## Obsah
 
 - [01 - Instalace](01-01-instalace.md)
 - [02 - Kontrola snímků](02-02-kontrola.md)
