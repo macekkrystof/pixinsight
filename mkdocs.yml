@@ -2,9 +2,9 @@ site_name: PixInsight
 site_url: https://macekkrystof.github.io/pixinsight/
 
 theme:
+  name: material
+  language: cs
   palette:
-
-    # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       toggle:
         icon: material/brightness-auto
