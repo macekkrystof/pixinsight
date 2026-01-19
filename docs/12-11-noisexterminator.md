@@ -5,8 +5,6 @@ lastmod: "2024-07-04T14:34:24+00:00"
 source: "https://clear-skies.azurewebsites.net/2024/07/04/pixinsight-pro-uplne-zacatecniky-11-noisexterminator-bonusove/"
 ---
 
-*Cílem této série návodů je provést začátečníka zpracováním DSO fotografií v programu PixInsight. Neočekává se od vás žádná znalost prostředí programu, ale zároveň by čtenář měl mít už nějaké povědomí o kalibračních snímcích, principu „stackování apod. Mým cílem je ukázat, že hezký (nikoliv dokonalý) snímek lze zpracovat v pár krocích s maximálním využitím toho, co PixInsight a různé jeho doplňky nabízí. Ukázková data (M42 – light frames, kalibrační snímky a nastackovaný snímek), která budou tuto sérii provázet jsou k dispozici ke stažení [zde](https://mega.nz/file/TYJXFIrJ#G6RTYuLBZxfHNJGWx-znRU1B8f1oh1rEwyQ8NnqSr4k). V průběhu návodů používám skripty a moduly třetích stran, návod na stažení všech je k dispozici v prvním dílu [zde](https://clearskies.cz/2024/04/29/1-instalace-pixinsight-priprava-prostredi/). Návody jsou tvořeny pro verzi PixInsight 1.8.9-3*
-
 Jelikož NoiseXterminator pochází od stejného autora jako BlurXterminator a je také placený, zařadil jsem ho až nakonec a tento krok vůbec není nutný. Nicméně pokud jste si zkušební verzi NoiseXterminatoru aktivovali nebo ho máte koupený, není důvod ho nevyzkoušet. 
 
 Důležité je se na fotku podívat, moje byla focena přes kameru, která obecně „šumí“ velmi málo a ještě byl v průběhu focení prováděn dithering, čímž se pravidelný šum kamery prakticky eliminuje. Nicméně i z této sestavy jsem někdy měl výstup, který zdaleka nebyl tak dobrý ať už kvůli horším podmínkám při focení, malému množství dat apod. Odstranění šumu ale rozhodně není zadarmo, vždy je to na úkor detailů, tedy je potřeba najít nějaký balanc. 
