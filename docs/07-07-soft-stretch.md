@@ -5,19 +5,23 @@ lastmod: "2024-07-01T14:50:39+00:00"
 source: "https://clear-skies.azurewebsites.net/2024/07/01/pixinsight-pro-uplne-zacatecniky-7-linearni-zpracovani-soft-stretch/"
 ---
 
-Až doposud jsme pracovali v tzv. lineární fázi zpracování, to znamená, že data jsou v surové podobě, kde světelnost pixelů přímo odpovídá množství přijatého světla. Neprovedli jsme žádnou změnu histogramu. Po zrušení Auto Stretch vypadá obrázek stále takhle:
+Až doposud jsme pracovali v tzv. lineární fázi, kdy jas pixelů odpovídá množství zachyceného světla. Histogram jsme neměnili. Po zrušení AutoStretch vypadá obrázek stále takto:
 
 ![](./07-07-soft-stretch/07-07-soft-stretch_img01_image.png)
-Teď už začneme manipulovat s histogramem. Dostat data do nějaké viditelnější podoby lze mnoho způsoby, PixInsight má vestavěných hned několik procesů, velmi populární je modul třetí srany [GHS](https://ghsastro.co.uk). Nejedná se ale o triviální postup tedy přesahuje rámec této série. Použijeme skript Soft Stretch z EZ Processing suite, které jsme jako jeden z repozitářů instalovali v prvním dílu. 
+
+Teď začneme pracovat s histogramem. Do viditelnější podoby lze data převést více způsoby – PixInsight má několik vestavěných procesů a často se používá i modul třetí strany [GHS](https://ghsastro.co.uk). Ten je ale složitější a přesahuje rámec této série.
+
+Použijeme skript Soft Stretch z balíku EZ Processing Suite, který jsme instalovali v prvním dílu.
 
 ##### Soft Stretch
 
-Rovnou skript otevřeme ze záložky Scripts => EZ Processing suite => EZ Soft Stretch 
+Skript otevřete přes Scripts → EZ Processing Suite → EZ Soft Stretch.
 
 ![](./07-07-soft-stretch/07-07-soft-stretch_img02_image-1.png)
-Můžete si zkusit trochu pohrát „šoupátky“ v otevřeném okně, ale já většinou použiju výchozí hodnoty a doladím poté ručně, což si ukážeme v dalších dílech. Stačí tedy kliknout na Run EZ Soft Stretch. 
+Můžete si pohrát se „šoupátky“, ale já většinou nechávám výchozí hodnoty a doladění řeším ručně v dalších krocích. Klikněte na Run EZ Soft Stretch.
 
-Výsledek není na první pohled špatný.
+Výsledek nevypadá špatně.
 
 ![](./07-07-soft-stretch/07-07-soft-stretch_img03_image-2.png)
-Máme stále velmi přepálený střed a detaily temných mlhovin se nám trochu ztrácejí, to vyřešíme v následujícím díle, kde si začneme hrát s histogramem.
+
+Střed je stále přepálený a detaily temných mlhovin se ztrácí. To vyřešíme v následujícím díle při práci s histogramem.
