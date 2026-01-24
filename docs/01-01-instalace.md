@@ -2,7 +2,7 @@
 title: "PixInsight pro úplné začátečníky #1 – Instalace PixInsight, příprava prostředí"
 ---
 
-*Cílem této série návodů je provést začátečníky zpracováním DSO fotografií v programu PixInsight. Neočekává se od vás žádná znalost prostředí programu, ale očekává se od vás nějaké povědomí o kalibračních snímcích, principu „stackování apod. Ukázková data (M42 – light frames, kalibrační snímky a nastackovaný snímek), která budou tuto sérii provázet jsou k dispozici ke stažení [zde](./01-01-instalace/M42_data.zip).*
+*Cílem této série návodů je provést začátečníky zpracováním DSO fotografií v programu PixInsight. Neočekává se od vás žádná znalost prostředí programu, ale očekává se od vás povědomí o kalibračních snímcích, principu „stackování apod. Ukázková data (M42 – light frames, kalibrační snímky a nastackovaný snímek), která budou tuto sérii provázet jsou k dispozici ke stažení [zde](./01-01-instalace/M42_data.zip).*
 
 ## Stažení a instalace PixInsight
 
