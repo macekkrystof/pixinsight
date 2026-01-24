@@ -1,11 +1,8 @@
 ---
 title: "PixInsight pro úplné začátečníky #2 – kontrola snímků"
-date: "2024-05-04T13:33:20+00:00"
-lastmod: "2024-06-24T15:18:30+00:00"
-source: "https://clear-skies.azurewebsites.net/2024/05/04/2-kontrola-snimku-stackovani-wbpp/"
 ---
 
-Data ke stažení jsou [zde](https://mega.nz/file/TYJXFIrJ#G6RTYuLBZxfHNJGWx-znRU1B8f1oh1rEwyQ8NnqSr4k). Postupy se u jiných objektů mohou mírně lišit, ale základ zůstává stejný. Data si extrahujte do libovolné složky – odteď s nimi budeme pracovat.
+*Data ke stažení jsou [zde](./01-01-instalace/M42_data.zip). Postupy se u jiných objektů mohou mírně lišit, ale základ zůstává stejný. Data si extrahujte do libovolné složky – odteď s nimi budeme pracovat.*
 
 ## Kontrola snímků
 
@@ -34,9 +31,9 @@ Výbornou alternativou je program ASIFitsViewer od ZWO, který je zdarma. Je sou
 ![](./02-02-kontrola/02-02-kontrola_img04_image-12.png)
 Satelitní stopy PixInsight při stackování obvykle odstraní. Snímky určené ke stackování by měly být ostré a neměly by se výrazně lišit jasem. První snímky po západu slunce nebo poslední před východem často raději vyřaďte, pokud je rozdíl v pozadí patrný.
 
-Nejlepším vodítkem je „kulatost“ hvězd. Pokud nejde o optickou vadu sestavy, měly by být hvězdy co nejkulatější a napříč snímky podobně velké. Náhlý halo efekt kolem hvězd může znamenat vysokou oblačnost nebo orosení optiky – takové snímky také vyřaďte. Doporučuji zazoomovat na skupinu hvězd ve středu a porovnávat ji napříč celou sekvencí.
+Dobrým vodítkem je „kulatost“ hvězd. Pokud nejde o optickou vadu sestavy, měly by být hvězdy co nejkulatější a napříč snímky podobně velké. Náhlý halo efekt kolem hvězd může znamenat vysokou oblačnost nebo orosení optiky – takové snímky vyřaďte. Doporučuji zazoomovat na skupinu hvězd ve středu a porovnávat ji napříč celou sekvencí.
 
-To, že se objekt mírně „pohybuje“, není problém, pokud jde o posuny v jednotkách až desítkách pixelů. V mém případě je to důsledek ditheringu, tedy žádoucí stav. Posuny ale mohou vznikat i nepřesností montáže nebo focením na stativu, kdy objekt ujíždí vlivem rotace Země. Pokud je některý snímek výrazně posunutý, je lepší ho vyřadit.
+To, že se objekt mírně „pohybuje“, není problém, pokud jde o posuny v jednotkách až desítkách pixelů. V mém případě je to důsledek ditheringu, tedy žádoucí stav. Posuny ale mohou vznikat i nepřesností montáže nebo focením na stativu, kdy objekt ujíždí vlivem rotace Země. Pokud je některý snímek výrazně posunutý oproti ostatním, je lepší ho vyřadit.
 
 Výjimkou je situace, kdy je část snímků otočená o 180°. To je důsledek meridian flipu a stackovací software si s tím poradí.
 
@@ -47,8 +44,4 @@ Výjimkou je situace, kdy je část snímků otočená o 180°. To je důsledek 
 ## OK snímek
 
 ![](./02-02-kontrola/02-02-kontrola_img06_image-14.png)
-Jak přísní budete, závisí i na tom, kolik snímků máte. V našem případě (cca 2,5 h dat) chceme vyhodit jen pár nejhorších. Drobné nedostatky guidování nebo montáže raději odpustíme, protože PixInsight při stackování snímky sám hodnotí a špatné kusy často vynechá.
-
->
-> ***ÚKOL:*** *Ať už používáte má data, nebo vlastní, je čas snímky projít, promazat a roztřídit do složek dle druhu (light, dark, flat…). V příštím díle se pustíme do stackování.*
->
+Jak přísní budete, závisí i na tom, kolik snímků máte. V našem případě (cca 2,5 h dat) chceme vyhodit jen pár nejhorších. Drobné nedostatky guidování nebo montáže raději odpustíme, protože PixInsight při stackování snímky sám hodnotí a špatné kusy vynechá nebo jim dá nižší váhu ve výsledném složeném obrázku.

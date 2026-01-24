@@ -6,7 +6,7 @@ title: "PixInsight pro úplné začátečníky #1 – Instalace PixInsight, př�
 
 ## Stažení a instalace PixInsight
 
-PixInsight je placený software určený výhradně pro zpracování astrofotografických dat. Pokud ho nemáte koupený, nevadí, jeho autoři nabízí bezplatné zkušební období 45 dní, ke kterému se můžete přihlásit [zde](https://pixinsight.com/trial/). Jen upozorním, že se nelze zaregistrovat e-mailem na doménách Microsoftu (Hotmail, Outlook, Live…). Vývojáři s ověřováním emailů na těchto doménách měli nejspíše nějaké problémy a zablokovali je. Žádost o trial je schvalována ručně, může to tedy několik pracovních dní trvat. O úspěšném vyřízení žádosti budete informování e-mailem. Jediné omezení trial verze je, že je potřeba mít pro spuštění programu funkční internetové připojení, aby se zamezilo pokusům o „nekonečné prodlužování trialu“ 🙂  
+PixInsight je placený software určený výhradně pro zpracování astrofotografických dat. Pokud ho nemáte koupený, nevadí, jeho autoři nabízí bezplatné zkušební období 45 dní, ke kterému se můžete přihlásit [zde](https://pixinsight.com/trial/). Žádost o trial je schvalována ručně, může to tedy několik pracovních dní trvat. O úspěšném vyřízení žádosti budete informování e-mailem. Jediné omezení trial verze je, že je potřeba mít pro spuštění programu funkční internetové připojení, aby se zamezilo pokusům o „nekonečné prodlužování trialu“ 🙂  
   
 Ať už jste úspěšně obdrželi trial licenci nebo máte PixInsight koupený stáhnout ho lze přímo na stránkách prodejce [zde](https://pixinsight.com/dist/browser.php).
 
@@ -22,7 +22,7 @@ Instalaci máme hotovou, nyní se vrhneme na instalaci užitečných doplňků.
 ## StarNet2
 
 ![](./01-01-instalace/01-01-instalace_img02_starless.jpg)
-StarNet2 je program pro odstranění hvězd z obrázku za pomoci strojového učení. Funguje bezvadně, je celkem rychlý a je zdarma. Jedná se o software třetí strany, který je dostupný jako samostatný program a nebo modul do PixInsightu, ten zajímá nás. Máte-li pocit, že nic takového rozhodně nepotřebujete, nechcete nikde prezentovat trapné snímky mlhovin bez hvězd, tak věřte že pro určitou fázi zpracování snímku je možnost (dočasně) odstranit hvězdy klíčová a nepostradatelná.
+StarNet2 je program pro odstranění hvězd z obrázku za pomoci AI. Funguje bezvadně, je celkem rychlý a je zdarma. Jedná se o software třetí strany, který je dostupný jako samostatný program a nebo modul do PixInsightu, ten zajímá nás. Pro určitou fázi zpracování snímku je možnost (dočasně) odstranit hvězdy klíčová a nepostradatelná.
 
 Modul stáhnete [zde](https://www.starnetastro.com/download/). Z .zip archivu zkopírujte celý obsah do složky `bin` v instalaci PixInsightu. Typická cesta je například `C:\Program Files\PixInsight\bin`.
 
@@ -45,6 +45,9 @@ Klikněte na Resources → Updates → Manage repositories.
 
 ![](./01-01-instalace/01-01-instalace_img05_image-7.png)
 Dvakrát klikněte na Add a přidejte tyto adresy:
+
+* https://elveteek.ch/pixinsight-updates/ez-processing-suite/
+* https://www.ideviceapps.de/PixInsight/Utilities/
 
 Potvrdíme tlačítkem OK, znovu otevřeme záložku Resources => Updates a nyní klikneme na Check for updates. Výsledek odklikneme, zavřeme okno PixInsightu, ten se po zavření zeptá, zda může nainstalovat aktualizace, což mu povolíme a je opět hotovo.
 Spolu s balíkem skriptů se nainstaloval i script pro GraXpert, což (opět neplacený) program na odstraňování gradientů z pozadí obrázků, aby skript fungoval, je potřeba nainstalovat GraXpert z těchto stránek <https://www.graxpert.com>.
@@ -74,6 +77,6 @@ Na závěr stačí kliknout na modré kolečko v levém holním rohu. V konzoli 
 
 Jedná se opět o moduly třetích stran a ještě k tomu placené. Nicméně mají 30-denní zkušební období zdarma a lze je využít i ve zkušební verzi PixInsightu. Za vyzkoušení rozhodně stojí.
 
-Jde o nástroje využívající strojové učení: jeden pro redukci šumu, druhý pro „zostření“ obrazu. BlurXterminator dokáže zachránit zdánlivě nepoužitelná data (například kvůli horší kolimaci nebo ostření). Instalace je podobná jako u skriptů výše, jen je potřeba aktivovat trial licenci. Podrobný návod najdete na stránkách výrobce [zde](https://www.rc-astro.com/pixinsight-installation-instructions/).
+Jde o nástroje využívající strojové učení: jeden pro redukci šumu, druhý pro „zostření“ obrazu. Instalace je podobná jako u skriptů výše, jen je potřeba aktivovat trial licenci. Podrobný návod najdete na stránkách výrobce [zde](https://www.rc-astro.com/pixinsight-installation-instructions/).
 
 A máme hotovo! Všechny potřebné doplňky máme nainstalované a můžeme se vrhnout na zpracování.
