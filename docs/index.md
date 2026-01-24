@@ -2,7 +2,7 @@
 
 ## Obsah
 
-- [01 - Instalace, priprava](01-01-instalace.md)
+- [01 - Instalace, příprava](01-01-instalace.md)
 - [02 - Kontrola snímků](02-02-kontrola.md)
 - [03 - Stackování ve WBPP](03-03-wbpp.md)
 - [04 - Auto Stretch, DBE, GraXpert](04-04-dbe.md)

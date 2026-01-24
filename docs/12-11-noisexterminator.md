@@ -5,16 +5,18 @@ lastmod: "2024-07-04T14:34:24+00:00"
 source: "https://clear-skies.azurewebsites.net/2024/07/04/pixinsight-pro-uplne-zacatecniky-11-noisexterminator-bonusove/"
 ---
 
-Jelikož NoiseXterminator pochází od stejného autora jako BlurXterminator a je také placený, zařadil jsem ho až nakonec a tento krok vůbec není nutný. Nicméně pokud jste si zkušební verzi NoiseXterminatoru aktivovali nebo ho máte koupený, není důvod ho nevyzkoušet. 
+NoiseXterminator pochází od stejného autora jako BlurXterminator a je také placený, proto ho nechávám až na úplný závěr. Tento krok není nutný, ale pokud máte aktivní trial nebo licenci, určitě stojí za vyzkoušení.
 
-Důležité je se na fotku podívat, moje byla focena přes kameru, která obecně „šumí“ velmi málo a ještě byl v průběhu focení prováděn dithering, čímž se pravidelný šum kamery prakticky eliminuje. Nicméně i z této sestavy jsem někdy měl výstup, který zdaleka nebyl tak dobrý ať už kvůli horším podmínkám při focení, malému množství dat apod. Odstranění šumu ale rozhodně není zadarmo, vždy je to na úkor detailů, tedy je potřeba najít nějaký balanc. 
+Je důležité se na snímek podívat realisticky: moje data byla pořízena kamerou s nízkým šumem a během focení jsem používal dithering, který pravidelný šum kamery výrazně eliminuje. Přesto jsem občas získal horší výstupy, ať už kvůli podmínkám, nebo kvůli malému množství dat.
 
-NoiseXterminator spustíme přes záložku Process => <All processes> => NoiseXterminator. Vždy ho pouštím až úplně na závěr zpracování. 
+Odstranění šumu ale není zdarma – vždy je to na úkor detailů. Je potřeba najít rozumný kompromis.
+
+NoiseXterminator spustíte přes Process → <All processes> → NoiseXterminator. Obvykle ho používám až na úplný závěr zpracování.
 
 ![](./12-11-noisexterminator/12-11-noisexterminator_img01_image-33.png)
-Výchozí úroveň Denoise je 0.75, já zpravidla snižuji na 0.5 nebo i méně. Aplikujeme jednoduše opět přetažením trojúhelníku z levého dolního rohu do prostoru obrázku.
+Výchozí hodnota Denoise je 0.75. Já ji často snižuji na 0.5 nebo i méně. Proces aplikujte přetažením trojúhelníku z levého dolního rohu do obrázku.
 
 ![](./12-11-noisexterminator/12-11-noisexterminator_img02_image-34.png)
 ![](./12-11-noisexterminator/12-11-noisexterminator_img03_image-35.png)
 
-Rozdíl před a po je patrný, ale ne až tak výrazný. To samé lze říci o ztrátě detailů. U tohoto konkrétního obrázku je to asi na osobních preferencích, zda se vám více líbí verze bez odstranění šumu nebo s jeho odstraněním. Nicméně jsou případy, kdy NoiseXterminator může zdánlivě nepoužitelný obrázek zachránit, je dobré vědět aspoň že takový nástroj existuje 🙂
+Rozdíl před a po je viditelný, ale ne dramatický. Totéž platí o ztrátě detailů. U tohoto snímku je to hlavně o osobních preferencích, zda se vám více líbí varianta bez redukce šumu, nebo s ní. V některých případech ale NoiseXterminator dokáže zachránit i jinak nepoužitelná data – je dobré vědět, že takový nástroj existuje. 🙂
