@@ -1,8 +1,5 @@
 ---
 title: "PixInsight pro úplné začátečníky #8 – StarNet2 + RangeSelection"
-date: "2024-07-01T14:45:31+00:00"
-lastmod: "2024-07-02T14:48:58+00:00"
-source: "https://clear-skies.azurewebsites.net/2024/07/01/pixinsight-pro-uplne-zacatecniky-8-starnet2-rangeselection/"
 ---
 
 Než se pustíme do úprav, oddělíme obrázek objektu od hvězd. Budeme tak moci pracovat s mlhovinou a přitom si nepoškodit hvězdy. Ještě předtím si obrázek přejmenujeme. Klikněte pravým tlačítkem do okna obrázku na levé záložce s názvem.

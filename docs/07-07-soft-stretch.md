@@ -1,8 +1,5 @@
 ---
 title: "PixInsight pro úplné začátečníky #7 – Nelineární zpracování – Soft Stretch"
-date: "2024-07-01T14:08:31+00:00"
-lastmod: "2024-07-01T14:50:39+00:00"
-source: "https://clear-skies.azurewebsites.net/2024/07/01/pixinsight-pro-uplne-zacatecniky-7-linearni-zpracovani-soft-stretch/"
 ---
 
 Až doposud jsme pracovali v tzv. lineární fázi, kdy jas pixelů odpovídá množství zachyceného světla. Histogram jsme neměnili. Po zrušení AutoStretch vypadá obrázek stále takto:
@@ -13,7 +10,7 @@ Teď začneme pracovat s histogramem. Do viditelnější podoby lze data převé
 
 Použijeme skript Soft Stretch z balíku EZ Processing Suite, který jsme instalovali v prvním dílu.
 
-##### Soft Stretch
+## Soft Stretch
 
 Skript otevřete přes Scripts → EZ Processing Suite → EZ Soft Stretch.
 

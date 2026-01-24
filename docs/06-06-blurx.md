@@ -1,15 +1,12 @@
 ---
 title: "PixInsight pro úplné začátečníky #6 – BlurXterminator (volitelné)"
-date: "2024-06-27T16:20:08+00:00"
-lastmod: "2024-06-27T16:21:11+00:00"
-source: "https://clear-skies.azurewebsites.net/2024/06/27/pixinsight-pro-uplne-zacatecniky-6-volitelne-blurxterminator/"
 ---
 
-Jak jsem psal na konci minulého dílu i v nadpisu, krok s BlurXterminatorem je čistě volitelný. Jde o placený modul se zkušební verzí na 30 dní. V prvním díle jsem zmiňoval, že lze Starnet2 výrazně urychlit pomocí GPU s podporou CUDA. Pokud jste to nastavili, bude BlurXterminator také výrazně rychlejší. Pokud ne a váš počítač je kompatibilní, doporučuji to dodělat. 🙂
+Krok s BlurXterminatorem je čistě volitelný. Jde o placený modul se zkušební verzí na 30 dní. V prvním díle jsem zmiňoval, že lze Starnet2 výrazně urychlit pomocí GPU s podporou CUDA. Pokud jste to nastavili, bude BlurXterminator také výrazně rychlejší.
 
 BlurXterminator analyzuje rozmazání obrazu pomocí matematického modelu (Point Spread Function – popis toho, jak se světlo z bodového zdroje, např. hvězdy, šíří a rozmazává při průchodu optikou a atmosférou). Poté pomocí dekonvolučního algoritmu tento efekt „vrací“, čímž obnovuje detaily a ostrost. Zároveň používá AI modely trénované na jiných snímcích pro přesnější vyhodnocení.
 
-BlurXterminator otevřete přes Process → <All processes> → BlurXterminator.
+BlurXterminator otevřete přes Process → All processes → BlurXterminator.
 
 ![](./06-06-blurx/06-06-blurx_img01_image-25.png)
 Nastavení můžete ponechat výchozí a proces rovnou aplikovat (přetažením trojúhelníku z levého dolního rohu do obrázku). S parametry si ale klidně pohrát můžete. V nastavení je vidět, že proces pomáhá i při přehnaně velkých hvězdách nebo halo okolo nich, například kvůli vysoké oblačnosti.
@@ -25,6 +22,6 @@ Podívejme se na srovnání celého snímku a detailů prachových mračen upros
 [![](./06-06-blurx/06-06-blurx_img05_detail-1.png)](https://clearskies-cb7c6411145f6cfb-endpoint.azureedge.net/wp-content/uploads/2024/06/detail_1.png)
 [![](./06-06-blurx/06-06-blurx_img06_detail-2.png)](https://clearskies-cb7c6411145f6cfb-endpoint.azureedge.net/wp-content/uploads/2024/06/detail_2.png)
 
-Rozdíl je patrný na první pohled a zároveň nevznikají výrazné artefakty. Posuďte sami, jestli vám to stojí za dalších 100 $. 🙂
+Rozdíl je patrný na první pohled a zároveň nevznikají výrazné artefakty.
 
 A můžeme pokračovat dál!
