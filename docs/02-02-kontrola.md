@@ -2,7 +2,7 @@
 title: "PixInsight pro úplné začátečníky #2 – kontrola snímků"
 ---
 
-*Data ke stažení jsou [zde](./01-01-instalace/M42_data.zip). Postupy se u jiných objektů mohou mírně lišit, ale základ zůstává stejný. Data si extrahujte do libovolné složky – odteď s nimi budeme pracovat.*
+*Data ke stažení jsou [zde](https://github.com/macekkrystof/pixinsight/blob/main/docs/01-01-instalace/M42_data.zip?raw=true). Postupy se u jiných objektů mohou mírně lišit, ale základ zůstává stejný. Data si extrahujte do libovolné složky – odteď s nimi budeme pracovat.*
 
 ## Kontrola snímků
 
