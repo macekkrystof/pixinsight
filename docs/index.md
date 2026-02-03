@@ -12,5 +12,5 @@
 - [08 - StarNet2](08-08-starnet2.md)
 - [09 - Histogram](09-09-histogram.md)
 - [10 - Curves](10-10-curves.md)
-- [11 - Závěr](11-11-zaver.md)
-- [12 - NoiseXTerminator](12-11-noisexterminator.md)
+- [11 - NoiseXTerminator](11-11-noisexterminator.md)
+- [12 - Závěr](12-12-zaver.md)

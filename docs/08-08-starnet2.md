@@ -9,9 +9,10 @@ Poté vyberte Identifier… a pojmenujte si obrázek, například „master“.
 
 ## StarNet2
 
-Otevřete Process → <All processes> → StarNet2.
+Otevřete Process → All processes → StarNet2.
 
 ![](./08-08-starnet2/08-08-starnet2_img02_image-4.png)
+
 Jak jsme si řekli dříve, nejsme už v lineární fázi (to, co vidíme, je skutečná reprezentace obrazu). Proto **Linear data** nechceme mít zaškrtnuté. Naopak **Create starmask** zaškrtnout chceme.
 
 Po aplikaci procesu se z obrázku odstraní hvězdy a vznikne druhý obrázek, který obsahuje pouze hvězdy. Nic dalšího nastavovat není potřeba – proces aplikujte klasicky přetažením trojúhelníku do obrázku.
