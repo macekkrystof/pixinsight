@@ -27,6 +27,9 @@ theme:
 plugins:
   - search
 
+extra_javascript:
+  - javascripts/external_links.js
+
 nav:
   - Home: index.md
   - Obsah:
