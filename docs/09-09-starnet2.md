@@ -30,7 +30,7 @@ Masky jsou běžný nástroj v úpravě obrázků – umožňují izolovat čás
 
 ## RangeSelection
 
-Pro vytvoření masek použijeme proces RangeSelection: Process → <All processes> → RangeSelection.
+Pro vytvoření masek použijeme proces RangeSelection: Process → All processes → RangeSelection.
 
 ![](./09-09-starnet2/08-08-starnet2_img04_image-6.png)
 Poprvé použijeme Preview. Klikněte na třetí ikonu zleva v levém dolním rohu (prázdné kolečko). Zobrazí se bílé okno – to je v pořádku.

@@ -11,7 +11,7 @@ Nejprve se zaměříme na střed. Masku vytvořenou v minulém dílu přetáhně
 ![](./10-10-histogram/09-09-histogram_img01_mask.gif)
 Masku aplikujte tak, jak je vidět v animaci – přetáhněte záložku z levého okraje okna masky na levý okraj okna obrázku.
 
-Poté otevřete Process → <All processes> → HistogramTransformation. V okně vyberte náš obrázek, klikněte do jeho prostoru a otevřete Preview kolečkem v levém dolním rohu (stejně jako minule).
+Poté otevřete Process → All processes → HistogramTransformation. V okně vyberte náš obrázek, klikněte do jeho prostoru a otevřete Preview kolečkem v levém dolním rohu (stejně jako minule).
 
 ![](./10-10-histogram/09-09-histogram_img02_histogram.gif)
 Preview je velmi užitečné: na hlavním obrázku je maska zobrazená červeně, ale v Preview vidíte reálný náhled změn dřív, než je aplikujete. Aplikace probíhá kliknutím na modrý čtvereček v levém horním rohu okna HistogramTransformation.

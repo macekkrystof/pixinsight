@@ -2,7 +2,7 @@
 title: "PixInsight pro úplné začátečníky #11 – Curves transformation, návrat hvězd, DarkStructureEnhance"
 ---
 
-Jas máme upravený, teď s maskou objektu otevřeme Process → <All processes> → CurvesTransformation.
+Jas máme upravený, teď s maskou objektu otevřeme Process → All processes → CurvesTransformation.
 
 ![](./11-11-curves/10-10-curves_img01_image-23.png)
 Opět otevřeme Preview, aby okno CurvesTransformation a náhled byly vedle sebe.
